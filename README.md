@@ -16,11 +16,28 @@ We look into whether pure angels that only choose to cooperate perform the best 
 
 # Summary of Rsearch Nodes
 
+
 <kbd><img src="https://github.com/Chanseung-Lee/Storage/blob/3a1fc6b0f730df3f686897c649ee973622e48c4f/rererere.JPG" alt="Image"></kbd>
 
+The entries of Fig. 1 represent the payoffs that each player gains. If both players (player X and player Y) cooperate, they both receive payoff R for reward. If both players defect, they receive P for punishment. If only one player defects and the other player cooperates, the defector receives T for temptation, and the cooperator gets S for sucker. 
+
+To make the payoff table more realistic, we assume that T>R>P>S. Regardless of what the other player does, the payoff of playing defect is greater than the payoff of playing cooperate, while the payoff of mutual cooperation is higher than the payoff of mutual defection. Thus, rational players will end up in the less desirable outcome of mutual defection. Because T>R and P>S, mutual defection is the only Nash equilibrium of the single-shot game.
 
 <kbd><img src="https://github.com/Chanseung-Lee/Storage/blob/3a1fc6b0f730df3f686897c649ee973622e48c4f/ertr.JPG" alt="Image"></kbd>
 
+The elements that are highlighted through research are as follows:
+
+- When there is no defection (everybody cooperates), the average balance (AVG) is R. The proof is trivial, because from the definition of AVG, AVG=R when d=0.
+
+- When there is no cooperation (everybody defects), the average balance is P. The proof is trivial, because from the definition of AVG, AVG=P when d=1.
+
+- When T+S<P+R, the average profit monotonically decreases as d increases. Therefore, when d=0, the profit is maximized.
+
+- When the value of P approaches R, meaning the reward for cooperating is not sufficiently greater than the punishment of mutual defection, the value of F becomes close to 1/2. In this case, the value of AVG approaches (T+S+2R)/4.
+
+Putting it all together, the optimal value of d that maximizes the group benefit is as follows:
+
+<kbd><img src="https://github.com/Chanseung-Lee/Storage/blob/62b0f18977df276bdb8ad63d2f143d042b791583/rr3.JPG" alt="Image"></kbd>
 
 
 
