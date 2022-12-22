@@ -6,7 +6,7 @@ This is the short code section that accompanies the collaborative research paper
 
 Most research endeavors have been conducted analytically and mathematically, thus the final code segments are relatively concise due to the main purpose being simply to verify the conclusions from the research output. Details of the involved mathematics can be found on the published paper.
 
-# Introduction
+# Intro to the Research
 
 The prisoner’s dilemma is a game theory framework illustrating two rational individuals making decisions in their own self-interest. Many social dilemma situations can be researched in the context of variations of this concept. Each player, regardless of the decision made by the other player, has an incentive to defect in one-shot interactions, or when the game is repeated for a finite number of times. Therefore, although the decision of cooperation by both players provides the more optimal payoff, the decision of defection is a rational decision, and it provides Nash equilibrium, despite the worse payoff. 
 
